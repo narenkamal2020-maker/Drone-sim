@@ -1,6 +1,6 @@
-# ⚡ Catalyst Node - Club Collaboration & Project Workspace
+# ⚡ WorkSync - Club Collaboration & Project Workspace
 
-Catalyst Node is a premium, recruiter-grade project management and collaboration platform designed for high-performing teams and university clubs. Built on the modern **Next.js 15 (App Router)**, **React 19**, **Tailwind CSS v4**, and **MongoDB/Mongoose**, it provides a performance-optimized cyber-glass visual workspace.
+WorkSync is a premium, recruiter-grade project management and collaboration platform designed for high-performing teams and university clubs. Built on the modern **Next.js 15 (App Router)**, **React 19**, **Tailwind CSS v4**, and **MongoDB/Mongoose**, it provides a performance-optimized cyber-glass visual workspace.
 
 The core engine is an interactive **Kanban Board** featuring an **offline-first local state pattern** with **background server synchronization** and automatic status rollback upon network or server failures.
 
