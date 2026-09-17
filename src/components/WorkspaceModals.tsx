@@ -5,7 +5,7 @@ import { IProject } from "@/models/Project";
 import { IMember } from "@/models/Member";
 import { ITask } from "@/models/Task";
 import Button from "@/components/ui/Button";
-import { X, Loader2, ListTodo, FolderPlus, UserPlus, Edit } from "lucide-react";
+import { X, Loader2, ListTodo, FolderPlus, UserPlus, Edit, type LucideIcon } from "lucide-react";
 import { MEMBER_ROLES, PROJECT_CATEGORIES, TASK_PRIORITIES, TASK_STATUSES } from "@/types/domain";
 
 const AVATAR_COLORS = ["#0EA5E9", "#10B981", "#F59E0B", "#EF4444", "#8B5CF6", "#EC4899"];
@@ -25,7 +25,7 @@ function ModalHeader({
   onClose,
 }: {
   title: string;
-  icon: React.ElementType;
+  icon: LucideIcon;
   onClose: () => void;
 }) {
   return (
