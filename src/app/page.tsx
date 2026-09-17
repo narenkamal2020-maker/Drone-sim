@@ -1,5 +1,11 @@
 "use client";
 
+import DroneSimulation from "@/components/DroneSimulation";
+
+export default function DashboardPage() { return <DroneSimulation />; }
+
+/*
+
 import React, { useState } from "react";
 import Navbar from "@/components/Navbar";
 import MetricsCard from "@/components/dashboard/MetricsCard";
@@ -714,3 +720,4 @@ export default function DashboardPage() {
     </div>
   );
 }
+*/
